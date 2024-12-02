@@ -1,0 +1,155 @@
+.plans {
+  padding: 100px 25px;
+}
+.plans h6 {
+  /* margin: 10px 0; */
+  font-size: 11px;
+  color: #ea5384;
+  background: rgb(41 41 41);
+  width: fit-content;
+  padding: 9px;
+  border-radius: 36px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  font-size: 10px;
+
+}
+.plans h4 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.plans .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plans .links {
+  background-color: rgb(22 22 22);
+  border-radius: 60px;
+  border: 1px solid rgb(173 173 173);
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+.plans .links a {
+  text-decoration: none;
+  color: rgb(173 173 173);
+  padding: 5px 15px;
+  display: block;
+}
+.plans .links:hover .a {
+  color: white;
+}
+.plans .links .link1 {
+  background-color: #ea5384;
+  border-radius: 50px;
+  transition: 0.4s;
+  color: black;
+}
+.plans .links .link1:hover {
+  padding-right: 25px;
+}
+.plans .links .link2 {
+  background-color: var(--scolor);
+  border-radius: 50px;
+  transition: 0.4s;
+  color: black;
+}
+.plans .links .link2:hover {
+  padding-left: 25px;
+}
+.plans .save {
+  font-size: 17px;
+  color: white;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+.plans .save span {
+  color: var(--scolor);
+}
+.plans .plans-itme {
+  display: flex;
+  justify-content: center;
+}
+.plans .plans-itme .itme {
+  position: relative;
+  height: 425px;
+  width: 430px;
+  background-color: #232323;
+  border-radius: 20px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+.plans .plans-itme .itme .p1 {
+  font-size: 13px;
+  background-color: #404040;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.plans .plans-itme .itme .p2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.plans .plans-itme .itme .p2 span {
+  display: inline-block;
+  color: var(--scolor);
+  font-size: 50px;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.plans .plans-itme .itme .div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.plans .plans-itme .itme .div p {
+  margin: 0;
+}
+.plans .plans-itme .itme a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #919191;
+  padding: 5px;
+  border-radius: 48px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 20px;
+  /* width: 92%; */
+  width: 91%;
+  transition: 0.4s;
+}
+.plans .plans-itme .itme a:hover,
+.plans .plans-itme .itme a.act{
+  background-color: var(--scolor);
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .plans{
+    padding: 100px 0px;
+  }
+  .plans .save {
+    font-size: 12px;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 30px;
+  }
+  .plans h4 {
+    font-size: 25px;
+  }
+}
